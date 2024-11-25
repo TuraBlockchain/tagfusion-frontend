@@ -38,7 +38,7 @@ const PageLoan = () => {
 
   return (
     <>
-      <div className="relative z-10 pt-[130px] px-[10px]">
+      <div className="relative z-10 md:max-w-[500px] md:mx-auto  pt-[130px] px-[10px]">
         <div className="w-full h-[552px] rounded-[10px] bg-[#424242]">
           <div className="pt-[15px] pl-[15px] text-[12px] text-white">
             Credit Loan
@@ -139,7 +139,7 @@ const PageLoan = () => {
             pays on a loan.
           </div>
         </div>
-        <div className="flex flex-col items-center w-full  px-[10px] py-[48px] ">
+        <div className="flex flex-col items-center w-full  px-[10px] py-[48px] md:px-[30px] md:bg-[#424242]">
           <div className="text-txtgreen text-[24px]">Borrow Amount</div>
           <div className="mt-[32px] text-[14px] text-white text-center">
             {walletAddress ? (
