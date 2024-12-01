@@ -40,7 +40,7 @@ const Footer = () => {
               <img className="w-full" src="/images/icon_x.svg" alt="X" />
             </a>
           </div>
-          <div className="w-[32px] h-[32px] mx-[16px]">
+{/*           <div className="w-[32px] h-[32px] mx-[16px]">
             <a
               href="https://discord.gg/jSdZFPZ5"
               target="_blank"
@@ -53,7 +53,7 @@ const Footer = () => {
                 alt="Discord"
               />
             </a>
-          </div>
+          </div> */}
           <div className="w-[32px] h-[32px] mx-[16px]">
             <a
               href="https://t.me/tele_tags_dao"
