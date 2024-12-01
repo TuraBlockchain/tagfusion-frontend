@@ -23,7 +23,7 @@ const ShareList = ({ onClick, isPop = false }) => {
             <img className="w-full" src="/images/icon_x.svg" alt="X" />
           </a>
         </div>
-        <div className="flex justify-center items-center w-[48px] h-[48px] p-[6px] ml-[20px] hover:bg-btngreen">
+{/*         <div className="flex justify-center items-center w-[48px] h-[48px] p-[6px] ml-[20px] hover:bg-btngreen">
           <a
             href="https://discord.gg/jSdZFPZ5"
             target="_blank"
@@ -37,7 +37,7 @@ const ShareList = ({ onClick, isPop = false }) => {
               alt="Discord"
             />
           </a>
-        </div>
+        </div> */}
         <div className="flex justify-center items-center w-[48px] h-[48px] p-[6px] ml-[20px] hover:bg-btngreen">
           <a
             href="https://t.me/tele_tags_dao"
